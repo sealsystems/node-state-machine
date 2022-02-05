@@ -25,7 +25,7 @@ suite('stateMachine.index', () => {
 
   test('returns constructor when called with parameter', (done) => {
     // eslint-disable-next-line no-empty-function
-    const Constructor = function() {};
+    const Constructor = function () {};
     const result = stateMachine.extend(Constructor);
 
     assert.that(result).is.equalTo(Constructor);
@@ -46,7 +46,7 @@ suite('stateMachine.index', () => {
     let endCalled = 0;
     let startCalled = 0;
     // eslint-disable-next-line no-empty-function
-    const MyConstructor = function() {};
+    const MyConstructor = function () {};
 
     stateMachine.extend(MyConstructor);
     MyConstructor.prototype
@@ -86,7 +86,7 @@ suite('stateMachine.index', () => {
 
   test('override default initial node', (done) => {
     // eslint-disable-next-line no-empty-function
-    const MyConstructor = function() {};
+    const MyConstructor = function () {};
 
     stateMachine.extend(MyConstructor);
     // eslint-disable-next-line no-empty-function

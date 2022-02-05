@@ -11,7 +11,7 @@ suite('stateMachine.Machine', () => {
 
   setup((done) => {
     // eslint-disable-next-line no-empty-function
-    TestMachine = function() {};
+    TestMachine = function () {};
     _.extend(TestMachine.prototype, Machine.prototype);
     TestMachine.prototype.init();
     done();
