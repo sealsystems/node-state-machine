@@ -24,7 +24,7 @@
     "lodash": "4.17.15"
   },
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "3.7.6",
+    "@sealsystems/eslint-config-es": "3.7.7",
     "@sealsystems/mocha": "4.2.3"
   },
   "repository": {
